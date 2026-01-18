@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Tienda | ThunderLand</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: radial-gradient(circle at top, #1a1a2e, #0b0b0f 60%);
+    color: #fff;
+    min-height: 100vh;
+}
+
+/* HEADER */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo span {
+    background: #6c4cff;
+    padding: 8px 12px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+header a {
+    color: #7a5cff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+/* TITLE */
+.title {
+    text-align: center;
+    margin: 40px 20px;
+}
+
+.title h1 {
+    font-size: 42px;
+}
+
+.title p {
+    color: #cfcfcf;
+    margin-top: 10px;
+}
+
+/* PRODUCTS */
+.products {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+    max-width: 1100px;
+    margin: 0 auto 60px;
+    padding: 0 20px;
+}
+
+.product {
+    background: linear-gradient(145deg, #14142b, #1f1f3d);
+    padding: 30px;
+    border-radius: 18px;
+    transition: 0.4s;
+}
+
+.product:hover {
+    transform: translateY(-8px);
+}
+
+.product h2 {
+    font-size: 20px;
+}
+
+.product p {
+    font-size: 14px;
+    color: #d0d0d0;
+    margin: 10px 0 20px;
+}
+
+.tag {
+    display: inline-block;
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-size: 12px;
+    background: rgba(255,255,255,0.12);
+}
+
+/* INFO BOX */
+.info {
+    text-align: center;
+    margin-bottom: 40px;
+    color: #aaa;
+    font-size: 13px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <div class="logo">
+        <span>CL</span>
+        <strong>ThunderLand</strong>
+    </div>
+    <a href="serverPrincipal.html">← Volver</a>
+</header>
+
+<section class="title">
+    <h1>Tienda ThunderLand</h1>
+    <p>Beneficios y rangos disponibles en el servidor</p>
+</section>
+
+<section class="products">
+
+    <div class="product">
+        <h2>VIP Básico</h2>
+        <p>
+            Acceso a comandos exclusivos, chat VIP y pequeñas ventajas
+            dentro del servidor.
+        </p>
+        <span class="tag">Beneficio</span>
+    </div>
+
+    <div class="product">
+        <h2>VIP Premium</h2>
+        <p>
+            Incluye todo lo del VIP Básico más recompensas diarias
+            y prioridad de entrada.
+        </p>
+        <span class="tag">Popular</span>
+    </div>
+
+    <div class="product">
+        <h2>Pack Vehículos</h2>
+        <p>
+            Acceso a
