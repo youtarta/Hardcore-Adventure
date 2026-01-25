@@ -1,41 +1,55 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-<meta charset="UTF-8">
-<title>Hardcore Adventure</title>
-<link rel="stylesheet" href="botonesD.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hardcore Adventure</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Icono -->
+    <link rel="icon" href="img/logo.png" type="image/png">
 </head>
 
 <body>
+    <main class="container">
 
-<header>
-    <div class="logo">
-        <span>HA</span>
-        <strong>Hardcore Adventure</strong>
-    </div>
-    <div class="user">Servidor Mc</div>
-</header>
+        <!-- TÍTULO -->
+        <h1>Hardcore <span>Adventure</span></h1>
 
-<section class="hero">
-    <h1>Hardcore <span> Adventure</span></h1>
-    <p>Sistema de información • Tienda • Normas</p>
-</section>
+        <!-- LOGO -->
+        <img 
+            src="img/logo.png" 
+            alt="Logo Hardcore Adventure" 
+            class="main-logo"
+        >
 
-<section class="cards">
+        <!-- SUBTÍTULO -->
+        <p class="subtitle">
+            Sistema de información • Tienda • Normas
+        </p>
 
-    <div class="card shop">
-        <h2>Tienda</h2>
-        <p>Visualiza los beneficios disponibles del servidor.</p>
-        <a href="tienda.html">ACCEDER</a>
-    </div>
+        <!-- BOTONES -->
+        <section class="buttons">
 
-    <div class="card rules">
-        <h2>Normas</h2>
-        <p>Normativas generales aplicables para todos.</p>
-        <a href="normas.html">ACCEDER</a>
-    </div>
+            <a href="normas.html" class="card normas">
+                <h2>Normas</h2>
+                <p>Reglas oficiales del servidor</p>
+            </a>
 
-</section>
+            <a href="tienda.html" class="card tienda">
+                <h2>Tienda</h2>
+                <p>Rangos, beneficios y donaciones</p>
+            </a>
 
+        </section>
+
+        <!-- FOOTER -->
+        <footer>
+            © 2026 Hardcore Adventure • Todos los derechos reservados
+        </footer>
+
+    </main>
 </body>
 </html>
